@@ -1,0 +1,294 @@
+{
+    "_key": "~",
+    "educations": {
+        "_total": 2,
+        "values": [
+			{
+                "activities": "ACM，数学建模，校级科研立项",
+                "degree": "本科",
+                "endDate": {
+                    "year": 2015
+                },
+                "fieldOfStudy": "软件工程",
+                "id": 43000730,
+                "notes": "省级ACM竞赛铜牌\n数学建模竞赛省级二等奖\n校级科研立项一等奖\n",
+                "schoolName": "山东大学        211/985",
+                "startDate": {
+                    "year": 2011
+                }
+            }
+        ]
+    },
+    "firstName": "XIAOPENG",
+    "headline": "Senior Software Engineer at Bloomberg L.P.",
+    "id": "qC72fmJGlB",
+    "lastName": "YU",
+    "pictureUrls": {
+        "_total": 1,
+        "values": [
+            "https://ss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/613ce78eb0e4bba3e78ebbe79283e6b8a3e5ad90b404"
+        ]
+    },
+    "positions": {
+        "_total": 8,
+        "values": [
+            {
+                "company": {
+                    "id": 9999,
+                    "name": "浪潮软件股份有限公司"
+                },
+                "id": 999999999,
+                "isCurrent": true,
+                "startDate": {
+                    "month": 1,
+                    "year": 2015
+                },
+                "summary": "主要包括案件管理，信息平台，研判系统三个模块，\n个人职责：(1)话单分析：相互通话分析(Echart),碰面分析（ArcGisJS），相互通话分析（Echart），共同联系人分析（Echart）\n(2)使用webService开发接口\n(3)SQL调优，系统性能优化,对分析模型进行性能优化（深度优先搜索）\n(4)对人物关系分析展现 模型进行重构，修改echarts源码调整符合项目要求的展现形式（Echart）",
+                "title": "检务云立体作战平台"
+            },
+            {
+                "company": {
+                    "id": 1043,
+                    "name": "浪潮软件股份有限公司"
+                },
+                "endDate": {
+                    "month": 1,
+                    "year": 2015
+                },
+                "id": 210137822,
+                "isCurrent": false,
+                "startDate": {
+                    "month": 1,
+                    "year": 2013
+                },
+                "summary": "个人职责：主要根据webservice和esb服务实现查询业务系统数据存储数据中心，业务调用在各个地市的业务逻辑，熟练使用jquery，div+css3的布局模式，Bootstrap前端框架",
+                "title": "检务云查询系统省集中版前端实现和业务逻辑实现"
+            },
+            {
+                "company": {
+                    "id": 1043,
+                    "name": "浪潮软件股份有限公司"
+                },
+                "endDate": {
+                    "month": 12,
+                    "year": 2012
+                },
+                "id": 598332990,
+                "isCurrent": false,
+                "startDate": {
+                    "month": 8,
+                    "year": 2011
+                },
+                "summary": "个人职责：深入了解java JVM动态加载机制及tomcat热部署原理\n数据提供方提供的接口格式不尽相同且易更改，如果专人维护时间，人力成本增加，根据实际情况通过在web页面配置接口的传参格式，修改后的代码，实现不重启tomcat（热替换）更改后台接口类（可在页面验证书写是否规范，返回结果是否正确）。",
+                "title": "动态编译与加载个性化接口（tomcat服务器）"
+            },
+            {
+                "company": {
+                    "id": 1043,
+                    "name": "浪潮软件股份有限公司"
+                },
+                "endDate": {
+                    "month": 8,
+                    "year": 2011
+                },
+                "id": 167176429,
+                "isCurrent": false,
+                "startDate": {
+                    "month": 2,
+                    "year": 2011
+                },
+                "summary": "根据DWR定时推送机制，通过调用webservice服务，实现即时通讯项目在某省检察院的实际使用\n个人职责：对聊天界面，聊天历史，好友页面通过jquery ，div+css3 ，Ajax 实现前后端的数据交互及页面美化",
+                "title": "web版企业级即时通讯项目"
+            }
+        ]
+    },
+    "projects": {
+        "_total": 0,
+        "values": [
+            
+        ]
+    },
+    "publicProfileUrl": "http://www.linkedin.com/in/%E6%99%93%E9%B9%8F-%E4%BA%8E-29a3ab107?trk=nav_responsive_tab_profile",
+    "skills": {
+        "_total": 34,
+        "categories": [
+            {
+                "name": "Coding"
+            }, 
+            {
+                "name": "Design"
+            }
+        ],
+        "values": [
+            {
+                "id": 598333027,
+                "skill": {
+                    "name": "jQuery"
+                },
+                "categoryId": 0
+            },
+            {
+                "id": 598333028,
+                "skill": {
+                    "name": "HTML 5"
+                },
+                "categoryId": 0
+            },
+            {
+                "id": 598333029,
+                "skill": {
+                    "name": "JavaScript"
+                },
+                "categoryId": 0
+            },
+            {
+                "id": 598333059,
+                "skill": {
+                    "name": "AngularJS"
+                },
+                "categoryId": 0
+            },
+            {
+                "id": 598333053,
+                "skill": {
+                    "name": "Bootstrap"
+                },
+                "categoryId": 0
+            },
+            {
+                "id": 598333034,
+                "skill": {
+                    "name": "AJAX"
+                },
+                "categoryId": 0
+            },
+            {
+                "id": 598333035,
+                "skill": {
+                    "name": "CSS"
+                },
+                "categoryId": 0
+            },
+            {
+                "id": 598333036,
+                "skill": {
+                    "name": "面向对象前端编程"
+                },
+                "categoryId": 1
+            },
+            {
+                "id": 598333038,
+                "skill": {
+                    "name": "WEB工程师"
+                },
+                "categoryId": 0
+            },
+            {
+                "id": 598333039,
+                "skill": {
+                    "name": "HTML"
+                },
+                "categoryId": 0
+            },
+            {
+                "id": 598333040,
+                "skill": {
+                    "name": "Flex"
+                },
+                "categoryId": 0
+            },
+            {
+                "id": 598333041,
+                "skill": {
+                    "name": "程序优化"
+                },
+                "categoryId": 0
+            }, 
+            {
+                "skill": {
+                    "name": "oracle"
+                },
+                "categoryId": 1
+            },
+            {
+                "id": 598333042,
+                "skill": {
+                    "name": "CSS3"
+                },
+                "categoryId": 0
+            },
+            {
+                "id": 598333043,
+                "skill": {
+                    "name": "mysql"
+                },
+                "categoryId": 1
+            },
+            {
+                "id": 598333044,
+                "skill": {
+                    "name": "SQL"
+                },
+                "categoryId": 0
+            },
+            {
+                "id": 598333050,
+                "skill": {
+                    "name": "SQLServer"
+                },
+                "categoryId": 0
+            },
+            {
+                "id": 598333051,
+                "skill": {
+                    "name": "MyBaties"
+                },
+                "categoryId": 1
+            },
+            {
+                "id": 598333052,
+                "skill": {
+                    "name": "springMVC"
+                },
+                "categoryId": 1
+            },
+            {
+                "id": 598333054,
+                "skill": {
+                    "name": "ext.js"
+                },
+                "categoryId": 0
+            },
+            {
+                "id": 598333055,
+                "skill": {
+                    "name": "SVN"
+                },
+                "categoryId": 1
+            },
+            {
+                "id": 598333032,
+                "skill": {
+                    "name": "Tomcat"
+                },
+                "categoryId": 0
+            },
+            {
+                "id": 598333058,
+                "skill": {
+                    "name": "MyEclipse"
+                },
+                "categoryId": 0
+            },
+
+            {
+                "id": 598333060,
+                "skill": {
+                    "name": "Eclipse"
+                },
+                "categoryId": 1
+            }
+        ]
+    },
+    "summary": "2015年毕业于山东大学软件工程专业(全日制本科四年)，现就职于济南浪潮软件股份有限公司\n喜欢优雅的代码，代码强迫症患者\nJavaScript，HTML5，CSS3，EXT.JS，AngularJS，Bootstrap，jQuery\nMy GIT: https://github.com/yxp1992"
+}
