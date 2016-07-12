@@ -4,11 +4,15 @@ appModule.service('TagService', ['$http', '$rootScope', '$q', function ($http, $
 
     // this.SHAOPENG_LINKIEDIN_ID = 'qC72fmJGlB';
 
-    this.companyUrlMap = {};
-    this.companyUrlMap[9999] =  {id: 9999, logoUrl: "https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAN2AAAAJDEyMjUxZGE3LWRhZTQtNGRlMS05MmFmLTZmZjJkZjVlZjEzZA.png", name: "Bloomberg L.P."};
-    this.companyUrlMap[1043] =  {id: 1043, logoUrl: "https://media.licdn.com/mpr/mpr/p/3/005/07b/00a/05def42.png", name: "Siemens"};
-    this.companyUrlMap[507720] = {id: 507720, logoUrl: "https://media.licdn.com/mpr/mpr/p/3/000/032/14c/0fad638.png", name: "Beijing Jiaotong University"} ;
-    this.companyUrlMap[3461] = {id: 3461, logoUrl: "https://media.licdn.com/mpr/mpr/p/7/000/2b5/1b3/37aeefe.png", name: "University of Pittsburgh"};
+      this.companyUrlMap = {};
+    this.companyUrlMap[9999] =  {id: 9999, 
+	logoUrl: "https://ss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/613ce78eb0e4bba3e78ebbe79283e6b8a3e5ad90b404", name: "langchao"};
+    this.companyUrlMap[1043] =  {id: 1043,
+	logoUrl: "https://ss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/613ce78eb0e4bba3e78ebbe79283e6b8a3e5ad90b404", name: "langchao"};
+    this.companyUrlMap[507720] = {id: 507720,
+	logoUrl: "https://ss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/613ce78eb0e4bba3e78ebbe79283e6b8a3e5ad90b404", name: "langchao"} ;
+    this.companyUrlMap[3461] = {id: 3461, 
+	logoUrl: "https://ss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/613ce78eb0e4bba3e78ebbe79283e6b8a3e5ad90b404", name: "langchao"};
     
     this.getTags = function() {
         var promise = $http.get('api/tags.json').then(function(response) {
