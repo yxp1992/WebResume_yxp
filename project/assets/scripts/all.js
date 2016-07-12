@@ -24,7 +24,7 @@ appModule.controller('AppController', ['$scope', '$rootScope', 'TagService', '$l
     function ($scope, $rootScope, TagService, $location) {
         $scope.$location = $location;
         var linkedInId = getUrlVars()['view'] === 'me' && 'me' || 'shaopeng';
-        var publicProfileUrl = encodeURIComponent('www.linkedin.com/in/shaopengzhang/');
+        var publicProfileUrl = encodeURIComponent('www.linkedin.com/in/yuxiaopeng/');
 
         if(linkedInId === 'me') {
             $scope.staticApp = false;
@@ -228,18 +228,18 @@ appModule.controller('UIController', ['$scope', '$rootScope', 'TagService',
 appModule.service('TagService', ['$http', '$rootScope', '$q', function ($http, $rootScope, $q) {
     
     var that = this;
-
-    // this.SHAOPENG_LINKIEDIN_ID = 'qC72fmJGlB';
+ 
+  
 
     this.companyUrlMap = {};
     this.companyUrlMap[9999] =  {id: 9999, 
-	logoUrl: "https://ss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/613ce78eb0e4bba3e78ebbe79283e6b8a3e5ad90b404", name: "Bloomberg L.P."};
+	logoUrl: "https://ss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/613ce78eb0e4bba3e78ebbe79283e6b8a3e5ad90b404", name: "langchao"};
     this.companyUrlMap[1043] =  {id: 1043,
-	logoUrl: "https://ss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/613ce78eb0e4bba3e78ebbe79283e6b8a3e5ad90b404", name: "Siemens"};
+	logoUrl: "https://ss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/613ce78eb0e4bba3e78ebbe79283e6b8a3e5ad90b404", name: "langchao"};
     this.companyUrlMap[507720] = {id: 507720,
-	logoUrl: "https://ss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/613ce78eb0e4bba3e78ebbe79283e6b8a3e5ad90b404", name: "Beijing Jiaotong University"} ;
+	logoUrl: "https://ss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/613ce78eb0e4bba3e78ebbe79283e6b8a3e5ad90b404", name: "langchao"} ;
     this.companyUrlMap[3461] = {id: 3461, 
-	logoUrl: "https://ss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/613ce78eb0e4bba3e78ebbe79283e6b8a3e5ad90b404", name: "University of Pittsburgh"};
+	logoUrl: "https://ss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/613ce78eb0e4bba3e78ebbe79283e6b8a3e5ad90b404", name: "langchao"};
     
     this.getTags = function() {
         var promise = $http.get('api/tags.json').then(function(response) {
