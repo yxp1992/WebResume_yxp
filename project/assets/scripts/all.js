@@ -94,11 +94,11 @@ appModule.controller('AppController', ['$scope', '$rootScope', 'TagService', '$l
         return vars;
     }
 }]);
-
+//UIController 组织多个select的具体数据
 appModule.controller('UIController', ['$scope', '$rootScope', 'TagService', 
     function ($scope, $rootScope, TagService) {
         $scope.SHAOPENG_LINKIEDIN_ID = TagService.SHAOPENG_LINKIEDIN_ID;
-        $scope.loadPercentage = {
+        $scope.loadPercentage = {//定义全局变量
             linkedIn:   0,
             summary:    0,
             educations: 0,
@@ -142,7 +142,7 @@ appModule.controller('UIController', ['$scope', '$rootScope', 'TagService',
             
             if($scope[contentProperty]) {
                 $scope.loadPercentage[contentProperty] = 100;
-                $scope.completeSection(section);
+                $scope.completeSection(section);//设置步数
                 // $scope.$apply();
             }
         }
@@ -159,7 +159,7 @@ appModule.controller('UIController', ['$scope', '$rootScope', 'TagService',
             }
             return 100;
         }
-        
+        //参数含义（技能名称，序号，技能个数） 实现技能动画树 copy from 某个技术博客。。
         $scope.twinkleStyle = function(value, index, length) {
             var transitionString = 'color 0.5s ease, text-shadow 0.5s ease, ' + 'top 0.4s ease ' +  (value * 3).toFixed(2) + 's' + ',' + 'opacity 0.4s ease ' +  value * 3 + 's' + ';';// + ',' + 'transform 0.4s ease ' + ';';
             var animationDelayString = (10 + value * 6) + 's' + ';'; 
@@ -191,7 +191,7 @@ appModule.controller('UIController', ['$scope', '$rootScope', 'TagService',
             //$('#step' + step).height(window.innerHeight);
             $('html,body').animate({
                 scrollTop: $('#step' + step).offset().top
-            }, 400);
+            }, 400);//可以让滚动跳转到相对应的高度
         }
 
         $scope.visible = function(identifier) {
@@ -205,7 +205,7 @@ appModule.controller('UIController', ['$scope', '$rootScope', 'TagService',
         }
 
 
-        $scope.blurringSkills = false;
+        $scope.blurringSkills = false;//初始化
         $scope.highlightingCategoryId = -1;
         $scope.highlightSkills = function(categoryId) {
 
